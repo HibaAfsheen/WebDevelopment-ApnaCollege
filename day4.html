@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day-04</title>
+    
+</head>
+<body>
+    <table border="black">
+        <caption>Table Caption</caption>
+        <tr>
+            <th>header 1</th>
+            <th>header 2</th>
+        </tr>
+        <tr>
+            <td>data 1</td>
+            <td>data 2</td>
+        </tr>
+        <tr>
+            <td>frooti</td>
+            <td>10</td>
+        </tr>
+        <!--Border with css-->
+    </table>
+    <hr>
+    <table border="black">
+        <caption>Food menu</caption>
+        <thead>
+            <tr>
+                <th rowspan="2">Item</th>
+                <th colspan="2">Price</th>
+            </tr>
+            <tr>
+                <th>INR</th>
+                <th>USD</th>
+            </tr>
+        </thead>
+       <tbody>
+            <tr>
+                <td>frooti</td>
+                <td>10</td>
+                <td>0.14</td>
+            </tr>
+            <tr>
+                <td>frooti</td>
+                <td>10</td>
+                <td>0.14</td>
+            </tr>
+            <tr>
+                <td>frooti</td>
+                <td>10</td>
+                <td>0.14</td>
+            </tr>
+       </tbody>
+    </table>
+
+    <hr>
+    <!--practice question 7-->
+
+    <p>practice question 7</p>
+    <p></p>
+    <table border="black">
+        <caption>A test with merge cell</caption>
+        <thead>
+            <tr>
+                <th rowspan="2"></th>
+                <th colspan="2">Average</th>
+                <th rowspan="2">Red eyes</th>
+            </tr>
+            <tr>
+                <th>Height</th>
+                <th>weight</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>Males</td>
+                <td>1.9</td>
+                <td>0.003</td>
+                <td>40%</td>
+            </tr>
+            <tr>
+                <td>Females</td>
+                <td>1.7</td>
+                <td>0.002</td>
+                <td>43%</td>
+            </tr>
+        </tbody>
+    </table>
+    <hr>
+   <!--forms-->
+   <p>forms</p>
+
+   <form action="/action">
+    <label>username
+    <input type="text" placeholder="username">
+    <br>
+    </label>
+    <label>
+    password
+    <input type="password" placeholder="password">
+    <br>
+    </label>
+    <label>
+    number
+    <input type="number" placeholder="number">
+    <br>
+    </label>
+    time
+    <input type="time" placeholder="time">
+    <br>
+    color 
+    <input type="color" placeholder="color">
+    <br>
+    <label for="username">Enter your username</label>
+    <input type="text" id="username" placeholder="username">
+    <br>
+    <button type="submit">Submit</button>
+    <button type="button">Hiiiii</button>
+    <button type="reset">Reset</button>
+
+    <input type="button" value="click me">
+   </form>
+
+   <hr>
+<P> practice ques 8</P>
+   <form action="https://www.google.com/search">
+    <input type="text" name="q" placeholder="search in google">
+    <button>Submit</button>
+   </form>
+
+   <hr>
+
+   <form action="/server">
+    <input type="checkbox" id="age" name="age">
+    <label for="age">I'm 18+</label>
+    <button>Submit</button>
+   </form>
+
+   <hr>
+
+   <form>
+    <div>
+        <input type="radio" name="fruit" id="apple" value="apple">
+        <label for="apple" >Apple</label>
+    </div>
+
+    <div>
+        <input type="radio" name="fruit" id="mango" value="mango">
+        <label for="mango" >Mango</label>
+    </div>
+
+    <div>
+        <input type="radio" name="fruit" id="banana" value="banana">
+        <label for="banana" >Banana</label>
+    </div>
+    <button>Submit</button>
+    <hr>
+
+    <div>
+        <label for="pet-select">Choose a pet:</label>
+
+        <select name="pets" id="pet-select">
+        <option value="">--Please choose an option--</option>
+        <option value="dog">Dog</option>
+        <option value="cat">Cat</option>
+        <option value="hamster">Hamster</option>
+        <option value="parrot">Parrot</option>
+        <option value="spider">Spider</option>
+        <option value="goldfish">Goldfish</option>
+        </select>
+        <button>Submit</button>
+
+    </div>
+<hr>
+    <div>
+        <input type="range" id="volume" name="volume" min="0" max="100" />
+        <label for="volume">Volume</label>
+    </div>
+
+    <div>
+       <input
+        type="range"
+        id="cowbell"
+        name="cowbell"
+        min="0"
+        max="100"
+        value="90"
+        step="10" />
+       <label for="cowbell">Cowbell</label>
+    </div>
+    <hr>
+    <label for="story">Tell us your story:</label>
+
+    <textarea id="story" name="story" rows="5" cols="33">
+    It was a dark and stormy night...
+    </textarea>
+    <button>submit</button>
+   </form>
+   <P>Practice question 9</P>
+
+   
+        <h3>Registration form</h3>
+        <form action="/action">
+            <div>
+                <input type="text" placeholder="first name" name="fname">
+            <input type="text" placeholder="last name" name="lname">
+            </div>
+
+            <div>
+                <label for="gender">please select gender</label>
+                <select name="gender" id="gender">
+                    <option value="m">Male</option>
+                    <option value="f">female</option>
+                    <option value="o">others</option>
+                </select>
+            </div>
+            <div>
+                Do you agree to all terms of service?
+                <input type="checkbox" id="tos" name="tos">
+                <label for="tos">I agree</label>
+            </div>
+            <button>Register</button>
+        </form>
+   
+</body>
+</html>
