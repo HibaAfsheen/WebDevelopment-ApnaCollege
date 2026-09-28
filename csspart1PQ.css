@@ -1,0 +1,29 @@
+*{
+    font-family: Georgia;
+    background-color: white;
+}
+    p{
+    color: rgb(165, 42, 42);
+    line-height: 30px;
+}
+
+h1, h3, h4, p{
+    text-align: center;
+}
+h1{
+    text-decoration: underline;
+}
+p{
+    color: red;
+}
+h3{
+    color: black;
+}
+a{
+    columns: green;
+    text-decoration: white underline;
+}
+button{
+    color: violet;
+}
+
